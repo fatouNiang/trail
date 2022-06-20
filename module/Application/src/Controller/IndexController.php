@@ -16,4 +16,13 @@ class IndexController extends AbstractActionController
     {
         return new ViewModel();
     }
+    public function resultatcourseAction(){
+       
+    }
+    public function inscriptionAction(){
+       
+    }
+    public function listeparticipantAction(){
+       
+    }
 }

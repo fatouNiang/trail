@@ -24,13 +24,43 @@ return [
                     ],
                 ],
             ],
-            'application' => [
+            // 'application' => [
+            //     'type'    => Segment::class,
+            //     'options' => [
+            //         'route'    => '/application[/:action]',
+            //         'defaults' => [
+            //             'controller' => Controller\IndexController::class,
+            //             'action'     => 'index',
+            //         ],
+            //     ],
+            // ],
+            'ResultatCourse' => [
                 'type'    => Segment::class,
                 'options' => [
-                    'route'    => '/application[/:action]',
+                    'route'    => '/course/resultat',
                     'defaults' => [
                         'controller' => Controller\IndexController::class,
-                        'action'     => 'index',
+                        'action'     => 'resultatcourse',
+                    ],
+                ],
+            ],
+            'Inscription' => [
+                'type'    => Segment::class,
+                'options' => [
+                    'route'    => '/inscription',
+                    'defaults' => [
+                        'controller' => Controller\IndexController::class,
+                        'action'     => 'inscription',
+                    ],
+                ],
+            ],
+            'ListeParticipant' => [
+                'type'    => Segment::class,
+                'options' => [
+                    'route'    => '/listeParticipant',
+                    'defaults' => [
+                        'controller' => Controller\IndexController::class,
+                        'action'     => 'listeparticipant',
                     ],
                 ],
             ],
